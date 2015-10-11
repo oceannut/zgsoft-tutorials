@@ -1,10 +1,10 @@
 package com.zgsoft.tutorials.rpc.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.zgsoft.tutorials.rpc.api.DemoService;
+import com.zgsoft.tutorials.rpc.api.DemoController;
 
 @Service(version="1.0.0")
-public class DemoServiceImpl implements DemoService{
+public class DemoControllerImpl implements DemoController{
 
 	public String sayHello(String name) {
 		return "Hello " + name;

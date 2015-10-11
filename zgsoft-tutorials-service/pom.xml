@@ -7,22 +7,22 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.zgsoft.tutorials</groupId>
-	<artifactId>zgsoft-tutorials-rpc-dubbo</artifactId>
+	<artifactId>zgsoft-tutorials-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>dubbo</artifactId>
-			<version>2.5.3</version>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.2.1.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.2.1.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>com.zgsoft.tutorials</groupId>
-			<artifactId>zgsoft-tutorials-rpc-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.zgsoft.tutorials</groupId>
-			<artifactId>zgsoft-tutorials-service</artifactId>
+			<artifactId>zgsoft-tutorials-domain</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

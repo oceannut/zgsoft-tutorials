@@ -10,11 +10,15 @@ public class Application {
 	@Autowired
 	private DemoAction demoAction;
 	
+	@Autowired
+	private MessageAction messageAction;
+	
 	public void doSomething(){
 		String hello = demoAction.greeting("world"); // 执行远程方法
 		System.out.println("---------begin---------");
 		System.out.println(hello); // 显示调用结果
 		System.out.println("---------end---------");
+		messageAction.send("tom", "jerry", "a bomb");
 	}
 	
 	public static void main(String[] args) throws Exception {

@@ -8,4 +8,11 @@
   <groupId>com.zgsoft.tutorials</groupId>
   <artifactId>zgsoft-tutorials-rpc-api</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.zgsoft.tutorials</groupId>
+  		<artifactId>zgsoft-tutorials-domain</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
