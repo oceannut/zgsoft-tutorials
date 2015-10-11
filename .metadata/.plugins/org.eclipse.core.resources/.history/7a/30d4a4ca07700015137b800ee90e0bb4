@@ -1,0 +1,14 @@
+package com.zgsoft.tutorials.rest.dubbo;
+
+import javax.ws.rs.Path;
+
+import com.zgsoft.tutorials.rest.api.DemoController;
+
+@Path("demo")
+public class DemoControllerImpl implements DemoController{
+
+	public String sayHello(String name) {
+		return "Hello " + name;
+	}
+
+}

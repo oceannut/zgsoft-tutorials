@@ -1,0 +1,11 @@
+package com.zgsoft.tutorials.rest.dubbo;
+
+import com.zgsoft.tutorials.rest.api.DemoController;
+
+public class DemoControllerImpl implements DemoController{
+
+	public String sayHello(String name) {
+		return "Hello " + name;
+	}
+
+}
